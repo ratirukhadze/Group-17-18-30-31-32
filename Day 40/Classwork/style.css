@@ -1,0 +1,22 @@
+h1{
+    animation-name: css;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color:aqua;
+    width: 55px;
+    border-radius: 5px;
+    animation-direction: reverse;
+
+}
+@keyframes css {
+  5%{
+    transform: rotate(0deg);
+    
+  }
+
+  10%{
+    transform: rotate(360px);
+  }
+    
+}
+
