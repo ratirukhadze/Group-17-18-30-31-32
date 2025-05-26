@@ -1,0 +1,33 @@
+:root {
+    --h1Color: blue;
+    --h1FontSize: 1.3em;
+    --h1FontFamily: cursive:
+     
+    --btnPadding: 35px;
+    --btnColor: chocolate;
+    --btnBackColor: red;
+
+    --pColor: pink;
+    --pFontFamily: cursive;
+    --pFontSize: 1.1em;
+
+}
+
+
+h1 {
+    color: var(--h1Color);
+    font-size: var(--h1FontSize);
+    font-family: var(--h1FontFamily);
+}
+
+button {
+    padding: var(--btnPadding);
+    color: var(--btnColor);
+    background-color: var(--btnBackColor);
+}
+
+p {
+    color: var(--pColor);
+    font-family: var(--pFontFamily);
+    font-size: var(--pFontSize);
+}

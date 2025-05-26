@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let weather = prompt("Enter the weather: ");
+        if (weather > 0 && weather <= 15) {
+            console.log('Temperature is Cold');
+        } else if (weather > 15 && weather <= 25) {
+            console.log('Temperature is Warm');
+        } else if (weather > 25 && weather <= 35) {
+            console.log('Temperature is Hot');
+        } else if (weather > 35) {
+            console.log('Temperature is Very Hot');
+        } else {
+            console.log('Invalid Input');
+        }
+        
+    </script>
+</body>
+</html>

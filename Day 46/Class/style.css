@@ -1,0 +1,5 @@
+img {
+    -webkit-box-reflect: right 70px;;
+    -moz-mask-image: url(pexels-photo-457881.jpeg);
+  mask-image: url(pexels-photo-457881.jpeg);
+ }
