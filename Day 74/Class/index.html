@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>car</title>
+</head>
+<body>
+    <script>
+        class Car {
+            constructor(name, turbo, age, color, engine) {
+                this.name = name;
+                this.turbo = turbo;
+                this.age = age;
+                this.color = color;
+                this.engine = engine;
+            }
+        }
+
+        const myCar = new Car('BMW', true, 2, 'black', 'V8');
+        console.log(myCar);
+
+
+
+
+
+
+
+    const cars = [
+        Car('Audi', false, 3, 'white', 'V6'),
+        Car('Mercedes', true, 1, 'silver', 'V8'),
+        Car('Toyota', false, 5, 'red', 'V4'),
+        Car('Ford', true, 4, 'blue', 'V6'),
+        Car('Honda', false, 2, 'green', 'V4')
+    ];
+
+    cars.forEach(car => {
+        console.log(car);
+    });
+    </script>
+</body>
+</html>

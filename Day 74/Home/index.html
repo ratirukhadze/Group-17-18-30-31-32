@@ -1,0 +1,91 @@
+<script>
+function Car(name, turbo, age, color, engine) {
+    this.name = name;
+    this.turbo = turbo;
+    this.age = age;
+    this.color = color;
+    this.engine = engine;
+}
+
+const myCar = new Car("Toyota Supra", true, 2, "red", "V6 Turbo");
+console.log(myCar);
+
+
+
+
+
+
+
+
+
+
+const cars = [
+        Car('Audi', false, 3, 'white', 'V6'),
+        Car('Mercedes', true, 1, 'silver', 'V8'),
+        Car('Toyota', false, 5, 'red', 'V4'),
+        Car('Ford', true, 4, 'blue', 'V6'),
+        Car('Honda', false, 2, 'green', 'V4')
+    ];
+
+    cars.forEach(car => {
+        console.log(car);
+    });
+
+
+
+
+
+
+
+
+
+
+    cars.forEach(car => {
+        console.log('Name:', car.name, 'Color:', car.color);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    const turboCars = cars.filter(car => car.turbo === true);
+    console.log('Turbo cars:', turboCars);
+
+
+
+
+
+
+
+
+
+
+
+    const carsNameEngine = cars.map(car => ({
+        name: car.name,
+        engine: car.engine
+    }));
+    console.log(carsNameEngine);
+    </script>
+
+
+
+
+
+
+
+
+</script>
+
+
+

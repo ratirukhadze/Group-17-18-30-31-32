@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>123</title>
+</head>
+<body>
+<script>
+
+const arr = [10, 20, 30, 40, 50];
+
+
+const [a, b, c, d, e] = arr;
+console.log('Array Destructuring:', a, b, c, d, e);
+
+
+const obj = {
+    name: 'Alice',
+    age: 25,
+    city: 'New York',
+    profession: 'Engineer',
+    hobby: 'Painting'
+};
+
+const { name, age, city, profession, hobby } = obj;
+console.log('Object Destructuring:', name, age, city, profession, hobby);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const newArray = [...arr, 60, 70, 80, 90, 100];
+console.log('Spread Operator (newArray):', newArray);
+
+
+function sumAll(...numbers) {
+    return numbers((acc, curr) => acc + curr, 0);
+}
+
+
+console.log('Rest Operator (sumAll):', sumAll(...arr));
+console.log('Rest Operator (sumAll with newArray):', sumAll(...newArray));
+
+
+
+
+
+
+/*
+rest (...) გამოიყენება ფუნქციის პარამეტრებში, რათა მიიღოს არგუმენტების ჯგუფი მასივის სახით.
+spread (...) გამოიყენება მასივის ან ობიექტის ელემენტების "გაშლელად" სხვა მასივში/ობიექტში ან ფუნქციის არგუმენტებად.
+*/
+</script>
+</body>
+</html>
