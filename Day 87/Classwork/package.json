@@ -1,0 +1,19 @@
+{
+  "name": "group17-18-30-31-32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratirukhadze/Group17-18-30-31-32.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+ }
